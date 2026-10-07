@@ -11,7 +11,7 @@ int main(void){
     farh = lower;
 
     while (farh < upper){
-        celsius = ((float)5/(float)9) * (farh - (float)32);
+        celsius = (5./9.) * (farh - 32.);
         printf("%.3f\t%.3f\n", farh, celsius);
         farh += step;
     }
